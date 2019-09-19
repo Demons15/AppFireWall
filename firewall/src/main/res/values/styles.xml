@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.Transparent" parent="android:Theme">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <!-- Dark style for all standard Locale and Locale plug-in Activity instances -->
+    <style name="Theme.Locale.Dark" parent="android:Theme" />
+    <style name="DarkListView" parent="@android:style/Widget.ListView">
+    </style>
+
+    <style name="BlackListView" parent="@android:style/Widget.ListView">
+        <item name="android:background">@color/black</item>
+    </style>
+</resources>
